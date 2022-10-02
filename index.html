@@ -5,7 +5,8 @@
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
@@ -14,6 +15,22 @@
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 	<link rel="shortcut icon" href="images/pepe.jpg">
 </head>
+<style>
+	#btnScrollToTop{
+		position: fixed;
+		right: 10px;
+		bottom: 10px;
+		width: 50px;
+		height: 50px;
+		border-radius:100%;
+		background: #eaeaea;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+		color: #ffffff;
+		outline: none;
+		opacity: 0.9;
+		cursor: pointer;
+	}
+</style>
 <body>
 
 	<section class="s1">
@@ -51,9 +68,7 @@
 					<div id = "LINKS">
 						<div class="links">
 							<p><a target="_blank" href="resume.pdf">Resume</a></p>
-							<p><a target="_blank" href="https://github.com/AyomideOjo">GitHub</a></p>
-							<p><a target="_blank" href="https://linkedin.com/in/ayomide-ojo">Linkedin</a></p>
-						</div>
+							</div>
 					</div> 
 
 					
@@ -143,34 +158,56 @@
 							</div>
 						</div>
 					</div>
-			
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;">CONTACT</h3>
-
-			<form id="contact-form">
-				<a name="contact"></a>
-				
-				<a href="mailto:Ayomide.ojo@mail.mcgill.ca">
-					<span type="button" class="btn btn--outline">
-					"Email me"
-					</span>
-				</a>
-			</form>
-		</div>
-	</section> 
-		<div class="scroll-top">
-			<a href="#top">
-				<svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></svg>
-			</a>
-		</div>
-		<footer class="footer"><p> © 2022 Version 0.3.1 </p></footer>
+	<button id="btnScrollToTop">
+		<a href="#top">
+			<i class="material-icons">
+				arrow_upward
+			</i>
+		</a>
+	</button>
+	<section>
+        <div class="">
+			<a name="contact"></a>
+            <a id="CONTACT"></a>
+            <div class="contact">
+                <ul>
+                    <li>
+                        <a target=”_blank” href="https://linkedin.com/in/ayomide-ojo">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa fa-linkedin" aria-hidden="true"></span>
+                    </li>
+                    <li>
+                        <a target=”_blank” href="https://github.com/AyomideOjo">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa fa-github" aria-hidden="true"></span>
+                    </li>
+                    <li>
+                        <a target=”_blank” href="mailto:Ayomide.ojo@mail.mcgill.ca">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+	<div class = "foot">
+		<footer class="footer"><p> © 2022 Version 0.0.3 </p></footer>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
