@@ -77,6 +77,25 @@ h6 { font-size: 16px;}
 	overflow:auto;
 }
 
+#SkillSection li{
+	display: inline-block;
+	margin-right: 5px;
+	margin-left:5px;
+}
+
+#Technical{
+	display: grid;
+
+}
+#Technologies{
+	display: grid;
+
+}
+#Languages{
+	display: grid;
+
+}
+
 .main-container{
 	width: 1200px;
 	margin: 0 auto;
