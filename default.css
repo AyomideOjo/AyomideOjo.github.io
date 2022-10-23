@@ -258,6 +258,60 @@ h6 { font-size: 16px;}
 	position: absolute;
 }
 
+.post-wrapper{
+	display: flex;
+	justify-content: center;
+	width: auto;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.post-wrapper .post{
+	background: #fff;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	color: #8e8b8b;  
+	position: relative;
+}
+
+.project{
+    padding:2em;
+    margin:0 auto;
+    text-align:center;
+    box-shadow:var(--shadow);transition:-webkit-transform .2s linear;transition:transform .2s linear;transition:transform .2s linear,-webkit-transform .2s linear
+}
+.project:hover{
+    -webkit-transform:translateY(-7px);
+    transform:translateY(-7px)
+}
+.project__description{
+    margin-top:1em
+}
+.project__stack{
+    display:flex;flex-wrap:wrap;
+    justify-content:center;
+    margin:1.2em 0
+}
+.project__stack-item{
+    margin:.5em;
+    font-weight:500;
+    font-size:.8rem;
+    color:var(--clr-fg-alt)
+}
+.project .link--icon{
+    margin-left:.5em
+}
+.projects__grid{
+    max-width:1100px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(18em,1fr));
+    grid-gap:2em
+}
+
 .left-column{
 	grid-area: left-column;
 	width: auto;  
